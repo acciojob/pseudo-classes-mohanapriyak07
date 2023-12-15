@@ -3,18 +3,18 @@
 	background-color:rgb(135, 206, 235)
 }
 
-p:first-child{
-	background-color:black;
-	color:white
-}
+ p:first-child {
+      color: white;
+      background-color: black;
+    }
 
-p:nth-child(2){
-	color:none;
-}
+    p:nth-child(2) {
+      /* Standard text color, no additional styling */
+    }
 
-p:last-child{
-	color:red;
-}
+    p:last-child {
+      color: red;
+    }
 
 li:nth-child(odd){
 	background-color:white;
